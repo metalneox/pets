@@ -4,9 +4,11 @@
   const submit = () => {}
 </script>
 
+<div class="bar">
+  <input on:change={autocomplete} class="searchbar" type="text" title="Search">
+  <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+</div>
 
-<input on:change={autocomplete} type="text" />
-
-<button on:click={submit}>
-  prova
+<button on:click={submit} class="button" type="button">
+	Cerca
 </button>

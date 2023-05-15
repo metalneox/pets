@@ -3,17 +3,15 @@
   import Search from './lib/Search.svelte'
 </script>
 
-<main>
+<main class="searcher">
   <div>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
+    <a href="http://localhost:5173/" target="_blank" rel="noreferrer">
       <img src={pawLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
   <h1>Searcher</h1>
 
-  <div class="box1">Prova</div>
-  <p>Aaaas</p>
-  <div class="card">
+  <div>
     <Search />
   </div>
 
@@ -22,7 +20,7 @@
 <style>
   .logo {
     height: 6em;
-    padding: 1.5em;
+    padding: 1em;
     will-change: filter;
     transition: filter 300ms;
   }
